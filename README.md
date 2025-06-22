@@ -3,8 +3,7 @@ A clean and responsive food ordering site — made with passion, tutorials, and 
 
 ![Chef GIF](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3lucmxkNzIwM2dlcjFrMmdsa2ZkNWMzZDBzbzdyamMxcjZlN3R0MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cCakkzdotOdOxUVVfP/giphy.gif)
 
-## 🌐 Live Site  
-[Visit La Nourriture](https://snehasikder.github.io/La-Nourriture/)
+## 🌐 Live Site  [Visit La Nourriture](https://snehasikder.github.io/La-Nourriture/)
 
 ## 🎯 Project Objectives
 - Practice responsive design
@@ -33,7 +32,7 @@ A clean and responsive food ordering site — made with passion, tutorials, and 
 - Code: [MIT License](LICENSE) — open to learning, forks, and feedback.  
 - Images and branding: Not licensed for reuse; included only for personal/non-commercial use.  
 
-## 💡 Future Improvements
+## 💡 Future Improvements ( Planned )
 - Add interactivity via JavaScript (e.g., dark mode toggle, dynamic menus)
 - Improve accessibility and semantics
 - Use royalty-free assets and optimize images
