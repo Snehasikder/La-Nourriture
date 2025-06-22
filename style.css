@@ -236,3 +236,29 @@ body {
     box-shadow: 6px 7px 10px black;
     text-align: left;
 }
+/* Default Light Mode */
+body {
+  background-color: #fff;
+  color: #111;
+  transition: background-color 0.3s, color 0.3s;
+}
+/* Position the toggle button */
+.toggle-label {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 1000;
+}
+/* DARK MODE: Target body when checkbox is checked */
+#darkModeToggle:checked ~ * {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+#darkModeToggle:checked ~ header,
+#darkModeToggle:checked ~ footer,
+#darkModeToggle:checked ~ section {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
