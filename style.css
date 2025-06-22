@@ -1,0 +1,232 @@
+:root {
+    --primary-color: rgb(207, 74, 97);
+    --secondary-color: maroon;
+    --white-color: rgb(255, 194, 204);
+    --black-color: #222;
+    --softgreen-color: rgb(238, 105, 127);
+    --darkgrey-color: #f5e1e1;
+    --grey-color: #f5f5f5;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 196px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 2%;
+    position: fixed;
+}
+
+.sidebar a {
+    display: block;
+    color: var(--white-color);
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+    background-color: var(--softgreen-color);
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 50%;
+}
+
+.sidebar-logout a {
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+    right: 2%;
+    background-color: var(--secondary-color);
+    text-align: center;
+    font-weight: bold;
+}
+
+.main {
+    margin-left: 250px;
+    width: calc(100% - 250px);
+    background-color: #FFB7C5;
+    padding: 2%;
+}
+
+.main-navbar {
+    background: var(--white-color);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input {
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    outline: none;
+    width: 300px;
+    transition: all 0.3s ease;
+}
+
+.search-box input:focus {
+    border-color: var(--softgreen-color);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-button {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: var(--softgreen-color);
+}
+
+.profile {
+    display: flex;
+    gap: 1rem;
+}
+
+.profile a {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.main-highlight {
+    margin-top: 20px;
+    padding: 1rem;
+    background: var(--white-color);
+    border-radius: 10px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.main-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.main-arrow ion-icon {
+    font-size: 2rem;
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.main-arrow ion-icon:hover {
+    color: var(--softgreen-color);
+}
+
+.highlight-wrapper {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+}
+
+.highlight-card {
+    min-width: 200px;
+    background-color: var(--grey-color);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.highlight-card:hover {
+    transform: scale(1.05);
+}
+
+.highlight-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.highlight-desc {
+    padding: 10px;
+    text-align: center;
+    background: var(--white-color);
+}
+
+.highlight-desc h4 {
+    margin: 0;
+    color: var(--primary-color);
+}
+
+.main-menus {
+    margin-top: 20px;
+    padding: 1rem;
+    background: var(--white-color);
+    border-radius: 10px;
+}
+
+.main-filter {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.filter-card {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--grey-color);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.filter-card:hover {
+    transform: scale(1.05);
+    background-color: var(--softgreen-color);
+}
+
+.filter-card h3 {
+    font-size: 1rem;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+.filter-card ion-icon {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+.detail img{
+    width:100%;
+    max-height:750px;
+}
