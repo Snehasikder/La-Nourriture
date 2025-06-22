@@ -226,7 +226,13 @@ body {
     margin-bottom: 5px;
     color: var(--primary-color);
 }
-.detail img{
+.detail-img{
     width:100%;
-    max-height:750px;
+    max-height:550px;
+}
+.detail-wrapper{
+    background-color: bisque;
+    border-radius: 12px;
+    box-shadow: 6px 7px 10px black;
+    text-align: left;
 }
