@@ -1,6 +1,4 @@
 # La Nourriture 🍽️  
-
-# La Nourriture 🍽️  
 A clean and responsive food ordering site — made with passion, tutorials, and midnight snacks.
 
 ![Chef GIF](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3lucmxkNzIwM2dlcjFrMmdsa2ZkNWMzZDBzbzdyamMxcjZlN3R0MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cCakkzdotOdOxUVVfP/giphy.gif)
